@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loverlhq/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loverlhq/resume/issues"
+  },
+  "homepage": "https://github.com/loverlhq/resume#readme",
+  "dependencies": {
+    "element-ui": "^2.13.2",
+    "express": "^4.17.1",
+    "vue": "^2.6.11"
+  }
+}

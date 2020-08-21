@@ -1,0 +1,81 @@
+.wrapper{
+    position: relative;
+    height: 60rem;
+    background-image: linear-gradient(180deg, #DFE9F3, white);
+    background-repeat: no-repeat;
+}
+
+.search_inp > input{
+    display: inline-block;
+    padding-left: 6rem;
+    width: 80rem;
+    height: 5rem;
+    position: absolute;
+    left: calc(50% - 40rem);
+    top: 15rem;
+
+    border: 1px solid #aaaaaa;
+    border-radius: 2.5rem;
+    outline: none;
+}
+
+.search_inp::before{
+    content: "";
+    position: absolute;
+    left: calc(50% - 37.5rem);
+    top: 16.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../img/search.png");
+    background-size: 100% 100%;
+    display: inline-block;
+    z-index: 1;
+}
+
+.search_btn{
+    position: absolute;
+    left: calc(50% + 36rem + 1px);
+    top: calc(15rem + 1px);
+    width: 10rem;
+    height: 5rem;
+    font-size: .85rem;
+    border: 1px solid #b3d8ff;
+    border-radius: 2.5rem;
+    color: white;
+    background-color: #409EFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.everyday{
+    width: 70rem;
+    height: 15rem;
+    position: absolute;
+    left: calc(50% - 35rem);
+    bottom: 5rem;
+    border: 2px solid #f5dab1;
+    border-radius: 1rem;
+    box-shadow: .1rem .1rem #f5dab1;
+    overflow: hidden;
+}
+.everyday > .title{
+    position: relative;
+    top: 2rem;
+    left: 30rem;
+    width: 20rem;
+    line-height: 3rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #f5dab1;
+    transform: rotateZ(30deg);
+    display: inline-block;
+}
+.everyday > .content{
+    margin: 2rem auto;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+.everyday > .author{
+    font-size: .75rem;
+}
